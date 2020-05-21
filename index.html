@@ -5,14 +5,25 @@
     <title>Design Research</title>
     <style>
       /* name of the class preceded by a dot */
+      /* refactoring––changing the form of the code without changing its function */
+      /* browser auto applies this rule to any element with this class */
+      .navbar_text-dec_color {
+        text-decoration: none; color: blue;
+      }
+      .nav_menu {
+        text-align: right;
+      }
+      .nav_spacing {
+        margin: 0 10px 0 0;
+      }
     </style>
   </head>
   <body>
 
-    <div style="text-align: right;">
-          <a href="index.html" style="margin: 0 10px 0 0; text-decoration: none; color: blue;">Home</a>
-          <a href="tags.html" style="margin: 0 10px 0 0; text-decoration: none; color: blue;">HTML Tags</a>
-          <a href="moby_dick.html" style="text-decoration: none; color: blue;">Moby Dick</a>
+    <div class="nav_menu">
+          <a href="index.html" class="navbar_text-dec_color nav_spacing">Home</a>
+          <a href="tags.html" class="navbar_text-dec_color nav_spacing">HTML Tags</a>
+          <a href="moby_dick.html" class="navbar_text-dec_color">Moby Dick</a>
     </div>
 
     <h2>Quotations</h2>
