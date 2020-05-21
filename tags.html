@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
-
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby Dick</a>
+    </div>
+    
     <h1>Important HTML tags</h1>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
@@ -61,6 +66,31 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>division</td>
+        <td>group elements to format them with CSS</td>
+      </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>include a container for introductory content</td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>makes an ordered list of items––usually rendered as a numbered list</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>makes an unordered list––usually rendered as a bulleted list</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>makes an item in a list</td>
+      </tr>
     </table>
 
     <h2>In-line Elements</h2>
@@ -92,13 +122,22 @@
         <td>makes a (hyper)link</td>
         <td><code>&lt;a href="https://victortokaito.com"&gt;Victor's Tokaito Website&lt;/a&gt;</code></td>
         <td><a href="https://victortokaito.com">Victor Tokaito's Website</a></td>
+        <!-- newlines don't matter except for in the edge case of the "a" tag -->
+        <!-- keep the "a" tag, spaceless -->
       </tr>
       <tr>
         <td><code>img</code></td>
         <td>image</td>
         <td>includes an image</td>
         <td><code>&lt;img src="images/kitten.jpg" alt="cute kitten"&gt;</code></td>
-        <td><img src="images/kitten.jpg" alt="cute kitten"></td>
+        <td><img src="images/kitten.jpg" alt="cute kitten"style="width:128px;height:85px;"></td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>group inline elements</td>
+        <td><code>&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code></td>
+        <td><span>Call me Ishmael.</span></td>
       </tr>
     </table>
   </body>
